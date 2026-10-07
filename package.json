@@ -1,0 +1,12 @@
+{
+  "name": "lead-scoring",
+  "version": "1.0.0",
+  "description": "Pontuação de leads para CRMs: perfil e engajamento com decaimento no tempo, matriz A1–D4, MQL e motivos de cada ponto. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["lead-scoring", "crm", "mql", "marketing", "vendas", "brasil"],
+  "license": "MIT"
+}
